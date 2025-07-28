@@ -21,7 +21,21 @@ include('./Database/connection.php')
                 </nav>
             </div>
         </div>
-        <p>
-            The best real estate website in town
-        </p>
+        <div class="word">
+            <h1>Finding Your New</h1>
+            <h1>Home Is Simple</h1>
+            <br>
+             <h3>
+                  <h4>RealEstate.com is your go to destination for finding the</h4>
+                  <h4>perfect rental home to suit your needs.</h4>
+                  <h4>With thousands of property listings across Ghana</h4>
+             </h3>
+        </div>
+        <br>
+        <br>
+        <div class="search_bar">
+            <form action="">
+                <input type="search" placeholder="search">
+            </form>
+        </div>
     </header>

@@ -10,7 +10,7 @@ header{
     padding: 1rem 0;
     background-image: url("https://i.pinimg.com/736x/08/39/28/083928363559c12f69700ee25cab4117.jpg");
     background-size: cover;
-    height: 300px;
+    height: 500px;
    }
 .house-container{
     padding: 0 20px;
@@ -30,7 +30,7 @@ nav ul{
     list-style: none;
     display: flex;
     gap: 5rem;
-    margin-top: -2.3rem;
+    margin-top: -2.7rem;
     align-items: center;
     justify-content: center;
     margin-left: 10rem;
@@ -47,20 +47,41 @@ nav a:hover{
 }
 .btn{
     background-color: rgb(185,187,169);
-    padding: 12px 30px;
+    padding: 10px 20px;
     text-decoration: none;
     font-size: 1rem;
-    transition: color 0,4s;
-    border-radius: 10px;
+    transition: color 0.4s;
+    border-radius: 20px;
     margin-left: 10rem;
 
 }
 
 .btn button{
+  color: white;
+  background-color: transparent;
   padding: 10px 20px;
   border: none;
-  border-radius: 10px;
+  border-radius: 20px;
+  background-color: hsl(60, 8%, 83%)
 }
+
+.word{
+  margin-left: 20px;
+}
+.search_bar{
+  margin-left: 20px;
+}
+.search_bar form input{
+  /* padding: 30px; */
+  padding-left: 20rem;
+  padding-bottom: 5px;
+  padding-top: 5px;
+  border-radius: 50px;
+  background-color: transparent;
+  background-color: #fff;
+}
+
+.
 
 
 /* Register  css*/
