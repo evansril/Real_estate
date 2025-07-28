@@ -8,7 +8,7 @@ header{
     background: linear-gradient(135deg,#0373e2,#343434);
     color: white;
     padding: 1rem 0;
-    background-image: url("https://i.pinimg.com/736x/08/39/28/083928363559c12f69700ee25cab4117.jpg");
+     background-image: url("../../includes/estate.jpg");
     background-size: cover;
     height: 500px;
    }
