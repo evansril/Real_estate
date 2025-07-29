@@ -11,7 +11,22 @@ header{
      background-image: url("../../includes/estate.jpg");
     background-size: cover;
     height: 500px;
+    margin-bottom: 50px;
+    width: 100%;
    }
+
+header h1{
+    font-size: 3rem;
+    color: white;
+  }
+
+  .wrapper{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 20px;
+}
+
 .house-container{
     padding: 0 20px;
     margin: 0 auto;
@@ -68,97 +83,82 @@ nav a:hover{
 .word{
   margin-left: 20px;
 }
+
 .search_bar{
   margin-left: 20px;
 }
 .search_bar form input{
   /* padding: 30px; */
-  padding-left: 20rem;
+   padding-left: 20rem;
   padding-bottom: 5px;
   padding-top: 5px;
   border-radius: 50px;
   background-color: transparent;
   background-color: #fff;
+  text-align: left;
+}
+.search_bar form input[type="text"]{
+  width: 300px;
+  border: none;
+  outline: none;
+  font-size: 1rem;
+}
+.search_bar form input[type="submit"]{
+  background-color: #0373e2;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 50px;
+  cursor: pointer;
+}
+.search_bar form inputplaceholder{
+  color: #d82323;
 }
 
-.
+/* Registration */
 
-
-/* Register  css*/
- /* body {
+body {
+      background: linear-gradient(135deg,#0373e2,#343434);
       font-family: Arial, sans-serif;
-      background: #f0f2f5;
       display: flex;
       justify-content: center;
-      align-items: center;
       height: 100vh;
       margin: 0;
-    }*/
-
-    .login-box {
+    }
+.register-form {
       background: #fff;
-      padding: 30px 40px;
-      border-radius: 10px;
-      box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
-      width: 100%;
-      max-width: 400px;
-    }
-
-    .login-box h2 {
-      text-align: center;
-      margin-bottom: 25px;
-      color: #333;
-    }
-
-    .form-group {
+      padding: 20px;
+      border-radius: 8px;
+      box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+      width: 400px;
+  }
+    .register-form h2 {
       margin-bottom: 20px;
+      text-align: center;
     }
-
+    .form-group {
+      margin-bottom: 15px;
+    }
     .form-group label {
       display: block;
       margin-bottom: 5px;
-      color: #555;
+      font-weight: bold;
     }
-
     .form-group input {
-      width: 100%;
+      width: 90%;
       padding: 10px;
-      border-radius: 5px;
       border: 1px solid #ccc;
-      outline: none;
-      font-size: 16px;
+      border-radius: 4px;
     }
-
-    .form-group input:focus {
-      border-color: #007bff;
-    }
-
-    .login-btn {
-      width: 100%;
-      padding: 12px;
+    .form-group button {
+      width: 95%;
+      padding: 10px;
       background-color: #007bff;
-      border: none;
-      border-radius: 5px;
       color: #fff;
-      font-size: 16px;
+      border: none;
+      border-radius: 4px;
       cursor: pointer;
     }
-
-    .login-btn:hover {
+.form-group button:hover {
       background-color: #0056b3;
-    }
-
-    .bottom-text {
-      text-align: center;
-      margin-top: 15px;
-      font-size: 14px;
-    }
-
-    .bottom-text a {
-      color: #007bff;
-      text-decoration: none;
-    }
-
-    .bottom-text a:hover {
-      text-decoration: underline;
     }
